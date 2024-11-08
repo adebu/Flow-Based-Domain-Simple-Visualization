@@ -3,7 +3,7 @@
 ### Next Steps to assess the impact of new planned power lines on the flow based domain:
 - Simulate the complete flow based domain
 - Simulate multiple days and extract a typical flow based domain for each border
-#### Deterministic Approach
+#### Deterministic Approach -> too resource/tool intensive
 - Use PyPSA to simulate the European Electricity System including TYNDP planned new infrastructure. #this probably will not work since PyPSA simplifies the network into fictitious nodes, not computing the complete load flow.
 - Extract the PTDF matrix and simulate a typical flow based domain of the planned power system
 #### Probabilistic Approach
